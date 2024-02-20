@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image_slider{
+    
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    width: 100vh;
+    height: 80vh;
+    border: 1px black solid;
+}
+button{
+    position: absolute;
+    top: 50%;
+}
+.next{
+    right: 0;
+}
+.previous{
+    left: 0;
+}
+.images{
+    display: flex;
+    height: 80vh;
+    width: 100vh;
+    
+}
+img{
+    width: 100vh;
+    height: 80vh;
+}
+.images .img{
+    display: none;
+}
+.images .current {
+    display: block; /* Display only the image inside the current div */
+}
